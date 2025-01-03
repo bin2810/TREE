@@ -1,0 +1,27 @@
+.background{
+    background-color: var(--green-color);
+    height: 400px;
+}
+
+.sidebar{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    background-color: white;
+    width: 350px;
+    height: 100vh;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px rgb(30, 30, 30,0.5);
+    padding: 10px;
+}
+
+.sidebar-img {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.sidebar-img img{
+    width: 60px;
+    margin: 0 10px;
+}
