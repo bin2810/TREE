@@ -18,8 +18,8 @@
                         <img src="  " alt="">
                     </div>
                     <div class="sidebar-main">
-                        <p><a href="">logo Danh mục</a></p>
-                        <p><a href="">logo Danh mục</a></p>
+                        <p><a href=""><span><i class="fa-solid fa-chart-line"></i></span><span>Bảng Điều Khiển</span></a></p>
+                        <p><a href=""><span><i class="fa-solid fa-table"></i></span><span>Danh Mục</span></a></p>
                         <p><a href="">logo Danh mục</a></p>
                         <p><a href="">logo Danh mục</a></p>
                         <p><a href="">logo Danh mục</a></p>

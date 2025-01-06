@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bông Tuyết Rơi</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #2f4f3b; /* Màu nền */
+    }
+
+    .bong-tuyet {
+      position: absolute;
+      top: -10px;
+      background-color: white;
+      border-radius: 50%;
+      pointer-events: none;
+      animation: roi 2s linear infinite; /* Rơi nhanh hơn */
+    }
+
+    @keyframes roi {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh);
+        opacity: 0.5;
+      }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function taoBongTuyet() {
+      const bongTuyet = document.createElement('div');
+      const kichThuoc = Math.random() * 10 + 5 + 'px'; // Kích thước ngẫu nhiên 5-15px
+      bongTuyet.className = 'bong-tuyet';
+      bongTuyet.style.width = kichThuoc;
+      bongTuyet.style.height = kichThuoc;
+      bongTuyet.style.left = Math.random() * window.innerWidth + 'px'; // Vị trí ngang ngẫu nhiên
+      bongTuyet.style.animationDuration = Math.random() * 1.5 + 1 + 's'; // Thời gian rơi nhanh (1-2.5s)
+      bongTuyet.style.animationDelay = Math.random() * 0.5 + 's'; // Độ trễ ngẫu nhiên
+      document.body.appendChild(bongTuyet);
+
+      // Xóa bông tuyết sau khi rơi xong
+      setTimeout(() => {
+        bongTuyet.remove();
+      }, 3000);
+    }
+
+    // Tạo bông tuyết mới mỗi 50ms
+    setInterval(taoBongTuyet, 50);
+  </script>
+</body>
+</html>
