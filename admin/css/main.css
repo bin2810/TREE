@@ -1,5 +1,5 @@
 .background{
-    background-color: var(--red-color);
+    background-color: var(--background-color);
     width: 100%;
     min-height: 300px;
     position: absolute;
@@ -11,18 +11,31 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: var(--green-color);
     height: 97vh;
     width: 250px;
     margin: 15px 0 15px 20px;
     box-shadow: 1px 2px 4px rgb(126, 126, 126,0.4);
     border-radius: 20px;
+    padding: 1rem;
+}
+.sidebar a{
+    display:block;
+    padding:1rem;
+    text-decoration: none;
+    color: var(--da-color);
+
+}
+.sidebar i{
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 0 0.5rem;
 }
 .main{
     height: auto;
     margin-left: 300px;
     position: relative;
-    color: white;
+    color: var(--text-color);
 }
 .main-nav{
     display: flex;
@@ -36,7 +49,7 @@
     font-weight: bold;
 }
 .nav-col-span{
-    color: rgb(216, 215, 215,0.5);
+    color: var(--green-color);
 }
 .input-login input[type="text"]{
     width:  250px;
@@ -48,7 +61,7 @@
     background: none;
     border: none;
     outline: none;
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 17px;
 }
@@ -76,15 +89,15 @@
     color: var(--red-color);
     font-weight: bold;
     font-size: 18px;
-    margin: 18px 0;
+    padding: 0.5rem 0;
     opacity: 90%;
 }
 .col-left-money{
     color: var(--green-color);
     font-weight: bold;
     font-size: 20px;
-    padding: 0;
     margin: 0;
+    padding: 0.5rem 0;
 }
 .col-left-percent{
     color: var(--green-color);
@@ -104,7 +117,7 @@
 .body-row2{
     display: grid;
     grid-template-columns: 925px auto;
-    padding: 20px 0;
+    padding: 1rem 0;
 }
 .body-row1-col1,
 .body-row1-col2{
