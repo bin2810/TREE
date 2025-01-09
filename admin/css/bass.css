@@ -1,9 +1,9 @@
 :root{
     --text-color:#3F6449;
-    --da-color: #F6CFB2;
+    --Lightpeach-color: #F6CFB2;
     --red-color: #63170F; 
-    --background-color:#F5F0E6;
     --green-color:#224229;
+    --white-color:#fff;
 }
 
 *{
@@ -12,6 +12,8 @@
 
 html{
     font-size: 62.5%;
+    /* 100% = 16px
+    px = 1rem */
 }
 
 body{

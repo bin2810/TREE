@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="image/png" href="/admin/img/logoiconweb.jpg">
     <link rel="stylesheet" href="../admin/css/bass.css">
     <link rel="stylesheet" href="../admin/css/main.css">
     <link rel="stylesheet" href="../admin/css/resetcss.css">
@@ -16,25 +17,34 @@
             <div class="sidebar">
                 <div class="sidebar-content">
                     <div class="sidebar-header">
-                        <img src="  " alt="">
+                        <img src="/admin/img/logo_text-2.jpg" alt="" srcset="">
+                        <img src="/admin/img/logo.png" alt="">
                     </div>
                     <div class="sidebar-main">
                         <a href=""><i class="fa-solid fa-chart-line"></i>Bảng Điều Khiển</a>
-                        <a href=""><i class="fa-solid fa-table"></i>bảng</a>
+                        <a href=""><i class="fa-solid fa-table"></i>Bảng</a>
                         <a href=""><i class="fa-solid fa-credit-card"></i>Thanh toán</a></p>
+                    </div>
+                    <div class="sidebar-footer">
+                        <p>TRANG TÀI KHOẢN</p>
+                        <a href=""><i class="fa-regular fa-user"></i>Hồ sơ</a>
+                        <a href=""><i class="fa-solid fa-right-to-bracket"></i>Đăng nhập</a>
+                        <a href=""><i class="fa-solid fa-inbox"></i>Đăng ký</a></p>
                     </div>
                 </div>
             </div>
             <div class="main">
                 <div class="main-nav">
                     <div class="nav-col">
-                        <span class="nav-col-span">bloomscape</span><span> / bảng điều kiển</span>
+                        <span class="nav-col-span">florahome</span><span> / bảng điều kiển</span>
                         <p>Bảng điều kiển</p>
                     </div>
                     <div class="nav-col">
                         <div class="input-login">
-                            <input type="text" name="" id="" placeholder="Nhập vào đây...">
-                            <input type="submit" value="Đăng nhập">
+                            <form action="" method="post">
+                                <input type="text" name="" id="" placeholder="Nhập vào đây...">
+                                <input type="submit" value="Đăng nhập">
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -44,7 +54,7 @@
                             <div class="col-content-left">
                                 <p class="col-left-title">TIỀN HÔM NAY</p>
                                 <p class="col-left-money">$53,000</p>
-                                <p><span class="col-left-percent">+55%</span>  Kể từ hôm nay</p>
+                                <p><span class="col-left-percent">+55%</span>Kể từ hôm nay</p>
                             </div>
                             <div class="col-content-right">
                                 <i class="fa-solid fa-gear"></i>
@@ -85,8 +95,9 @@
                 <div class="main-body">
                     <div class="body-row1">
                         <div class="body-row1-col1">
-                            <p>Tổng Quan Về Bán Hàng</p>
-                            <p>Tăng thêm 4% vào năm 2021</p>
+                            <p>Tổng quan về bán hàng</p>
+                            <p>Tăng thêm <span>4%</span>vào năm 2021</p>
+                            <canvas class="dothi" id="salesChart"></canvas>
                         </div>
                         <div class="body-row1-col2">
                             <p>Tổng Quan Về Bán Hàng</p>
@@ -106,5 +117,7 @@
                 </div>
             </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/admin/js/main.js"></script>
 </body>
 </html>
