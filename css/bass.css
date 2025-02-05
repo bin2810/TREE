@@ -1,4 +1,64 @@
 :root{
     
     --text-color:#3F6449;
+    --bgbanner-color: #375437;
+    --bgnavbar-color:#FFFCF9;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFCF9;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.15em;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.5s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 1s ease-in-out;
+}
+
+.showleft {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 1s ease-in-out;
+}
+
+.showright {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid-main{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
 }

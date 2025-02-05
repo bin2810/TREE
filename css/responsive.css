@@ -1,0 +1,38 @@
+/* Mobile & tablet */
+
+@media (max-width:1023px) {
+    .hide-nav{
+        display: none;
+    }
+    .show-nav{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .video-banner{
+        width: 90%;
+        margin: 0 auto;
+        /* height: 100vh; */
+        overflow: hidden;
+    }
+    .video-banner__video{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px) {
+  
+    
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    
+}
