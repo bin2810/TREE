@@ -18,7 +18,6 @@
     background-color: var(--bgnavbar-color);
     width: 100%;
     height: 55px;
-    /* top: 50px; */
     z-index: 1024;
     transition: top 0.1s ease-in-out;
     box-shadow: -10px 0 5px rgba(0, 0, 0, 0.5);
@@ -284,6 +283,9 @@
 .right-img img{
     width: 100%;
     height: auto;
+}
+.detail-mobile{
+    display: none;
 }
 
 

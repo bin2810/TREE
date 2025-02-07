@@ -7,3 +7,13 @@ window.addEventListener("scroll", function() {
         navbar.style.top = "50px"; // Trở về vị trí ban đầu
     }
 });
+
+
+window.addEventListener("scroll", function() {
+    var videomain = document.querySelector(".video-banner");
+    if (window.scrollY > 1) {  // Kéo xuống 200px thì navbar xuất hiện
+        videomain.style.margin = "0 auto";
+    } else {
+        videomain.style.margin = "3rem auto"; // Trở về vị trí ban đầu
+    }
+});
