@@ -7,10 +7,19 @@
     .show{
         display: block;
     }
-    .logo{
+    .header_nav{
         display: flex;
-        justify-content: center;
-        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        /* height: 56px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        width: 150px;
+        /* margin-right: 1.8rem; */
     }
     .header_nav{
         padding: 0 0.5rem;
@@ -172,7 +181,7 @@
     .title-product{
         font-size: 1   rem;
         font-weight: bold;
-        margin: 1.5rem 0;
+        margin: 0.5rem 0 1.5rem 0;
         color: var(--text-color);
     }
 }
