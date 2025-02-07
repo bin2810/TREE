@@ -284,12 +284,25 @@
     width: 100%;
     height: auto;
 }
-.detail-mobile{
+.mobile{
     display: none;
 }
 
 
 
+
+.header-title-main{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.header-title-sub{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
 .product-small img{
     width: 100%;
     height: auto;
@@ -323,18 +336,6 @@
     margin: 1.5rem 0;
 }
 
-.header-title-main{
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 500;
-    margin: 2rem 0;
-}
-
-.header-title-sub{
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 2rem 0;
-}
 
 
 
